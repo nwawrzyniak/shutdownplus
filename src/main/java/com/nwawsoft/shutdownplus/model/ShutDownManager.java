@@ -19,12 +19,10 @@ public class ShutDownManager {
         switch (shutDownMode) {
             case DURATION:
                 duration = TimeCalc.getSecondsFromDurationString(shutDownString);
-                System.out.println(duration);
                 ShellHandler.spawnShutDownProcess(duration);
                 break;
             case TIME:
                 duration = TimeCalc.getSecondsFromTimeString(shutDownString);
-                System.out.println(duration);
                 ShellHandler.spawnShutDownProcess(duration);
                 break;
             default:

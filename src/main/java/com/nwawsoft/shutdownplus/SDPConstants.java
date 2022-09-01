@@ -1,7 +1,7 @@
 package com.nwawsoft.shutdownplus;
 
 public class SDPConstants {
-    public static final String VERSION = "v0.1.0";
+    public static final String VERSION = "v0.2.0";
     public static final String[] GUI_CODES = {
             "g",
             "-g",
